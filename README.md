@@ -20,6 +20,11 @@ The code was tested to have no collisions given
 50000 unique strings. And this was compared to the
 results of md5sum on Linux.
 
+## uniq_check.pl
+
+This Perl script tests that repeated hashing of the
+same file, produces the same hash.
+
 # Security
 No claim is being made as to the security of this
 approach. The software is being provided AS-IS.
@@ -27,3 +32,4 @@ Future research is required.
 
 # Author
 Roger Doss
+opensource [at] rdoss [dot] com
